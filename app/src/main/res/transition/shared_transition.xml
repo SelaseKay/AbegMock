@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="200"
+    android:transitionOrdering="together">
+    <changeBounds>
+
+    </changeBounds>
+    <changeTransform
+        android:reparentWithOverlay="false"
+        android:reparent="false">
+    </changeTransform>
+    <changeClipBounds></changeClipBounds>
+    <changeImageTransform></changeImageTransform>
+
+
+    <fade
+        android:duration="200"
+        android:fadingMode="fade_in"
+        android:startDelay="400">
+        <targets>
+            <target android:targetId="@+id/fullNameTextView" />
+            <target android:targetId="@+id/userFullName" />
+            <target android:targetId="@+id/emailTextView" />
+            <target android:targetId="@+id/emailAddress" />
+            <target android:targetId="@+id/textView10" />
+            <target android:targetId="@+id/textView11" />
+            <target android:targetId="@+id/textView12" />
+        </targets>
+    </fade>
+
+    <fade
+        android:duration="50"
+        android:fadingMode="fade_out">
+        <targets>
+            <target android:targetId="@+id/fullNameTextView" />
+            <target android:targetId="@+id/userFullName" />
+            <target android:targetId="@+id/emailTextView" />
+            <target android:targetId="@+id/emailAddress" />
+            <target android:targetId="@+id/textView10" />
+            <target android:targetId="@+id/textView11" />
+            <target android:targetId="@+id/textView12" />
+            <target android:targetId="@+id/userPassword" />
+            <target android:targetId="@+id/passwordTextView" />
+            <target android:targetId="@+id/passwordTextLayout" />
+        </targets>
+    </fade>
+</transitionSet>

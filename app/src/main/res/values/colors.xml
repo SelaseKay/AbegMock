@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#7722F1</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <item name="blueViolet" type="color">#7D2AF4</item>
+    <item name="violetShade1" type="color">#A569FB</item>
+    <item name="violetShade2" type="color">#7722F1</item>
+    <item name="violetShade3" type="color">#EEE7FA</item>
+    <item name="gray" type="color">#FAFAFA</item>
+    <item name="green" type="color">#18BCAB</item>
+    <item name="greenShade" type="color">#EAF8F6</item>
+</resources>
